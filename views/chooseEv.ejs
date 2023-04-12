@@ -1,0 +1,75 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Frame 1@2x.png">
+    <title>FixPoint</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .dropdown:hover>.dropdown-menu {
+  display: block;
+  color: white;
+  background-color: black;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.dropdown-item{
+    color: white;
+}
+.btn{
+    width: 200px;
+}
+
+.head{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+</style>
+<body>  
+
+    <section class="bg-light">
+        <div class="container py-5 text-center logincont">
+          <div class="row gx-lg-5 align-items-center">
+            <div class="col-lg-7">
+            <img class="img-fluid" src="/images/Select-pana.png" alt="" />
+            </div>
+            <!-- /column -->
+            <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-5 text-center text-lg-start">
+              <h1 class="head mb-4 mt-lg-0 mt-5">What Describes You Better.</h1>
+              
+                    <div class="dropdown my-2">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            EVOWNER
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="/views/EVOWNER/2wheel/2owner">2 wheel </a>
+                          <a class="dropdown-item" href="/EVOWNER/3wheel/3owner">3 wheel</a>
+                          <a class="dropdown-item" href="/EVOWNER/4wheel/4owner">4 wheel</a>
+                        </div>
+                     </div>
+               
+                     <div class="dropdown my-2">
+                        <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            MANUFACTURE
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="/EVMANUFACTURE/manufacture">walkthrough </a>
+                        </div>
+                     </div>
+                   
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
